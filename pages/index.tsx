@@ -3,10 +3,14 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by themeptation.net">
-    <img className='w-10 h-10 absolute p-10 top-0 left-0' src="/images/logo.png" alt='Creator Logo' />
+    <img
+      src="/images/logo.png"
+      alt="Creator Logo"
+      className="absolute w-40 h-40 top-0 left-10 p-5"
+    />
     <img
       src="/images/xera.svg"
-      alt="Themeptation "
+      alt="Themeptation"
       className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
     />
     <img
@@ -19,9 +23,9 @@ const IndexPage = () => (
         <h3 className="font-light text-xl uppercase tracking-wider">
           Something great is on the way
         </h3>
-        <h1 className="text-7xl lg:text-9xl font-extrabold"> Coming soon</h1>
+        <h1 className="text-7xl lg:text-9xl font-extrabold "> Coming soon</h1>
         <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
-          We`re working hard to give you the best experience
+          We <span className='font-semibold text-[#0D0B5F]'>Creator Ethiopia</span> working hard to give you the best experience
         </p>
       </div>
     </div>
